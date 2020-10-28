@@ -10,7 +10,7 @@ What we want to achieve here:
 - Finding out how to stream all or most of the data our device generates within the LoRa constraints
 
 What we have right now:
-- LogAir devices
+- LogAir devices & STM32s
 - SX1276
 - Tried to have the SX1276 upload data with the Bluepill as a MCU
 - Failed
