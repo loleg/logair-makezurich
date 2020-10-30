@@ -14,8 +14,12 @@ What we have right now:
 - SX1276
 - Tried to have the SX1276 upload data with the Bluepill as a MCU
 - Failed
+- Tried to have the murata module upload data from the Arduino BLE 33
+- Managed to have that working
+- Tried Murata x Bluepill
+- Failed
 
 What we need:
 - People who already did similar things to jumpstart
-- A Murata module?
+- A Murata module? We have that now
 - Inputs of any kind
