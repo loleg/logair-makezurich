@@ -1,7 +1,7 @@
 import yaml, requests
 
 from os import path
-from buildui import get_layouts
+from .buildui import get_layouts
 
 from pyxley.utils import create_app, default_static_path, default_template_path
 
@@ -41,4 +41,4 @@ if __name__ == "__main__":
     # get_api_data()
     # TODO: filter the datasets by the value column in the config
     # ..... then pass it into the app layout
-    app.run(debug=True, port=5001)
+    app.run(debug=True)

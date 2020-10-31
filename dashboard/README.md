@@ -11,3 +11,7 @@ Run `python ttndash/__init__.py`.
 
 Each chart is defined in the `project/buildui.py` file. The charts
 are then assembled into a layout in `buildui.get_layouts`.
+
+In "production", use:
+
+`gunicorn -b 0.0.0.0:5050 ttndash`
