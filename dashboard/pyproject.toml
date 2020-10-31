@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "logair-makezurich"
+version = "0.0.1"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyxley = "^0.1.0"
+pyyaml = "^5.3.1"
+requests = "^2.24.0"
